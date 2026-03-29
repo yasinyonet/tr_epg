@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001001" lang="tr" xmltv_id="">24</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001013" lang="tr" xmltv_id="">AL JAZEERA INTERNATIONAL</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001016" lang="tr" xmltv_id="">ARABESK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001017" lang="tr" xmltv_id="">ATV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001019" lang="tr" xmltv_id="">BABYTV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001021" lang="tr" xmltv_id="">A HABER</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001022" lang="tr" xmltv_id="">90’ LAR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001024" lang="tr" xmltv_id="">A PARA</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001025" lang="tr" xmltv_id="">A SPOR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001026" lang="tr" xmltv_id="">A2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001027" lang="tr" xmltv_id="">AKİT TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001028" lang="tr" xmltv_id="">AL JAZEERA ARABIC</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001030" lang="tr" xmltv_id="">ANEWS</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001041" lang="tr" xmltv_id="">AKUSTİK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001061" lang="tr" xmltv_id="">BBC EARTH</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001062" lang="tr" xmltv_id="">BBC FIRST</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001063" lang="tr" xmltv_id="">BBC NEWS</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001064" lang="tr" xmltv_id="">BEYAZ TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001065" lang="tr" xmltv_id="">BLOOMBERG</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001066" lang="tr" xmltv_id="">BLUES</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001068" lang="tr" xmltv_id="">CARTOON NETWORK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001070" lang="tr" xmltv_id="">CNN INTERNATIONAL</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001071" lang="tr" xmltv_id="">BENGÜTÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001081" lang="tr" xmltv_id="">BLOOMBERG HT</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001091" lang="tr" xmltv_id="">CARTOONITO</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001092" lang="tr" xmltv_id="">CNN TÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001093" lang="tr" xmltv_id="">DA VINCI</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001094" lang="tr" xmltv_id="">DEUTSCHE WELLE</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001095" lang="tr" xmltv_id="">DREAM TÜRK TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001101" lang="tr" xmltv_id="">CNBC</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001111" lang="tr" xmltv_id="">DISCOVERY CHANNEL</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001112" lang="tr" xmltv_id="">DİNİ MUSİKİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001123" lang="tr" xmltv_id="">DISNEY JUNIOR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001124" lang="tr" xmltv_id="">DMAX</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001125" lang="tr" xmltv_id="">DİYANET TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001131" lang="tr" xmltv_id="">EUROSPORT 1</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001141" lang="tr" xmltv_id="">EUROSPORT 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001151" lang="tr" xmltv_id="">FB TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001154" lang="tr" xmltv_id="">FRANCE 24</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001156" lang="tr" xmltv_id="">HABER GLOBAL</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001159" lang="tr" xmltv_id="">HABERTÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001160" lang="tr" xmltv_id="">HABİTAT TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001161" lang="tr" xmltv_id="">FIGHT NETWORK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001162" lang="tr" xmltv_id="">NOW</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001163" lang="tr" xmltv_id="">FİLM MÜZİKLERİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001165" lang="tr" xmltv_id="">KANAL 7</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001166" lang="tr" xmltv_id="">KANAL D</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001167" lang="tr" xmltv_id="">RETRO</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001168" lang="tr" xmltv_id="">SAUDI QURAN</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001170" lang="tr" xmltv_id="">STAR TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001171" lang="tr" xmltv_id="">ID</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001172" lang="tr" xmltv_id="">JAZZ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001173" lang="tr" xmltv_id="">ÇALIŞIRKEN</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001183" lang="tr" xmltv_id="">KON TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001184" lang="tr" xmltv_id="">LOUNGE</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001185" lang="tr" xmltv_id="">MUTLU</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001186" lang="tr" xmltv_id="">MİNİKA GO</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001187" lang="tr" xmltv_id="">MİNİKA ÇOCUK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001189" lang="tr" xmltv_id="">NHK WORLD-JAPAN</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001190" lang="tr" xmltv_id="">NICKTOONS</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001191" lang="tr" xmltv_id="">KLASİK MÜZİK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001201" lang="tr" xmltv_id="">NATIONAL GEOGRAPHIC</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001211" lang="tr" xmltv_id="">NATIONAL GEOGRAPHIC WILD</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001213" lang="tr" xmltv_id="">TRT ÇOCUK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001221" lang="tr" xmltv_id="">NTV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001223" lang="tr" xmltv_id="">NUMBER1 TÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001224" lang="tr" xmltv_id="">OLDIES</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001225" lang="tr" xmltv_id="">POWER TÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001226" lang="tr" xmltv_id="">RT ARABIC</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001227" lang="tr" xmltv_id="">S SPORT</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001230" lang="tr" xmltv_id="">SHOW TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001231" lang="tr" xmltv_id="">POWER TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001233" lang="tr" xmltv_id="">TRT EBA</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001234" lang="tr" xmltv_id="">TV5 MONDE</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001235" lang="tr" xmltv_id="">TÜRK SANAT MÜZİĞİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001236" lang="tr" xmltv_id="">TİVİBU ÇOCUK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001237" lang="tr" xmltv_id="">YABANCI SLOW</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001241" lang="tr" xmltv_id="">SEMERKAND TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001258" lang="tr" xmltv_id="">SİNEMA TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001259" lang="tr" xmltv_id="">SİNEMA YERLİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001260" lang="tr" xmltv_id="">TGRT HABER</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001262" lang="tr" xmltv_id="">SİNEMA 1001</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001263" lang="tr" xmltv_id="">SİNEMA AKSİYON</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001265" lang="tr" xmltv_id="">TAŞ PLAK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001266" lang="tr" xmltv_id="">TRT 1</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001267" lang="tr" xmltv_id="">TRT AVAZ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001268" lang="tr" xmltv_id="">TV 100</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001269" lang="tr" xmltv_id="">TÜRKÇE SLOW</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001270" lang="tr" xmltv_id="">TİVİBU SPOR 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001271" lang="tr" xmltv_id="">SİNEMA AİLE</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001281" lang="tr" xmltv_id="">SİNEMA KOMEDİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001291" lang="tr" xmltv_id="">TV2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001293" lang="tr" xmltv_id="">YABANCI POP</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001301" lang="tr" xmltv_id="">TLC</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001302" lang="tr" xmltv_id="">TRT 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001303" lang="tr" xmltv_id="">TRT 3 SPOR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001304" lang="tr" xmltv_id="">TRT BELGESEL</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001306" lang="tr" xmltv_id="">TRT EL ARABIA</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001307" lang="tr" xmltv_id="">TRT HABER</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001308" lang="tr" xmltv_id="">TRT TÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001309" lang="tr" xmltv_id="">TRT WORLD</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001310" lang="tr" xmltv_id="">TV 8,5</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001321" lang="tr" xmltv_id="">TRT KURDİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001331" lang="tr" xmltv_id="">TRT MÜZİK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001341" lang="tr" xmltv_id="">TRT SPOR YILDIZ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001342" lang="tr" xmltv_id="">YABANCI ROCK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001351" lang="tr" xmltv_id="">TV8</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001353" lang="tr" xmltv_id="">TÜRK HALK MÜZİĞİ</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001354" lang="tr" xmltv_id="">TÜRKÇE POP</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001355" lang="tr" xmltv_id="">TİVİBU SPOR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001356" lang="tr" xmltv_id="">TİVİBU SPOR 1</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001357" lang="tr" xmltv_id="">TİVİBU SPOR 3</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001358" lang="tr" xmltv_id="">TİVİBU TANITIM</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001359" lang="tr" xmltv_id="">ULUSAL 1</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001360" lang="tr" xmltv_id="">ÜLKE TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001361" lang="tr" xmltv_id="">TVNET</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001371" lang="tr" xmltv_id="">VAV TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001401" lang="tr" xmltv_id="">360</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001441" lang="tr" xmltv_id="">FX</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001461" lang="tr" xmltv_id="">TRT SPOR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001462" lang="tr" xmltv_id="">EKOTÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001481" lang="tr" xmltv_id="">BENİM KANALIM</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001881" lang="tr" xmltv_id="">LOVE NATURE</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001891" lang="tr" xmltv_id="">VIASAT HISTORY</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001921" lang="tr" xmltv_id="">AL SUNNAH</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001971" lang="tr" xmltv_id="">TİVİBU SPOR 4</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000001981" lang="tr" xmltv_id="">TV4</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002075" lang="tr" xmltv_id="">HALK TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002187" lang="tr" xmltv_id="">TARİH TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002188" lang="tr" xmltv_id="">TARİH TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002247" lang="tr" xmltv_id="">MOONBUG</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002267" lang="tr" xmltv_id="">SZC TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002287" lang="tr" xmltv_id="">TV 5</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002298" lang="tr" xmltv_id="">TRT DİYANET ÇOCUK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002389" lang="tr" xmltv_id="">EPIC DRAMA</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002531" lang="tr" xmltv_id="">TÜRKHABER TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002541" lang="tr" xmltv_id="">NICKELODEON</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002594" lang="tr" xmltv_id="">W-SPORT</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002631" lang="tr" xmltv_id="">EKOL TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002641" lang="tr" xmltv_id="">CNBC-e</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002681" lang="tr" xmltv_id="">HT SPOR HD</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002691" lang="tr" xmltv_id="">GZT TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002701" lang="tr" xmltv_id="">NICK JR</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002721" lang="tr" xmltv_id="">AS TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002731" lang="tr" xmltv_id="">TELE 1</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002773" lang="tr" xmltv_id="">TİVİ 6</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002783" lang="tr" xmltv_id="">SİNEMA 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002784" lang="tr" xmltv_id="">SİNEMA YERLİ 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002785" lang="tr" xmltv_id="">SİNEMA KOMEDİ 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002786" lang="tr" xmltv_id="">SİNEMA AİLE 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002803" lang="tr" xmltv_id="">SİNEMA AKSİYON 2</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002813" lang="tr" xmltv_id="">SİNEMA 1002</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002823" lang="tr" xmltv_id="">LALEGÜL</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002833" lang="tr" xmltv_id="">SPACETOON</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002843" lang="tr" xmltv_id="">TYT TÜRK</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002853" lang="tr" xmltv_id="">FLASH HABER TV</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002863" lang="tr" xmltv_id="">EKOL SPORTS</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002905" lang="tr" xmltv_id="">FILM SCREEN</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002915" lang="tr" xmltv_id="">COSMO SPORTS</channel>
+  <channel site="tivibu.com.tr" site_id="ch00000000000000002925" lang="tr" xmltv_id="">TRT GENÇ</channel>
+</channels>
