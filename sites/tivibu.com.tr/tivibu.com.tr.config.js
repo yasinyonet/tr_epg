@@ -66,7 +66,7 @@ async function getPrevueList(channelCode, dateBegin, dateEnd) {
 
 module.exports = {
   site: 'tivibu.com.tr',
-  days: 3,
+  days: 3, // 3 günlük EPG çek
 
   url({ channel, date }) {
     // url fonksiyonu zorunlu, ama biz parser içinde API çağırıyoruz

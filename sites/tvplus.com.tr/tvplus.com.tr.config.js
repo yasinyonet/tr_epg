@@ -89,7 +89,7 @@ async function fetchPlaybillList(channelId, date) {
 
 module.exports = {
   site: 'tvplus.com.tr',
-  days: 3,
+  days: 3, // 3 günlük EPG çek
 
   async url({ channel }) {
 

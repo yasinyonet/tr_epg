@@ -1,54 +1,60 @@
-# Contributing Guide
+# Katkı Kılavuzu
 
-- [How to?](#how-to)
-- [Project Structure](#project-structure)
-- [Scripts](#scripts)
+- [Nasıl yapılır?](#nasıl-yapılır)
+- [Proje Yapısı](#proje-yapısı)
+- [Komut Dosyaları](#komut-dosyaları)
 
-## How to?
+---
 
-### How to add a channel to the guide?
+## Nasıl yapılır?
 
-To ask for help with adding a channel simply fill out this [form](https://github.com/iptv-org/epg/issues/new?assignees=&labels=channel+request&projects=&template=2_channel-request.yml).
+### Rehbere kanal nasıl eklenir?
 
-If you want to add a channel to the list yourself, here are the instructions on how to do it.
+Kanal eklemek için bir [talep formu](https://github.com/iptv-org/epg/issues/new?assignees=&labels=channel+request&projects=&template=2_channel-request.yml) doldurabilirsiniz.
 
-First select the site from [SITES.md](SITES.md) that you know has a guide for the channel you need. Then go to the folder with its config and open the file `*.channels.xml`.
+Kanalı kendiniz eklemek istiyorsanız şu adımları izleyin:
 
-Make sure that the desired channel is not already in the list. If it is not, simply add its description to the end of the list as shown here:
+[SITES.md](SITES.md) dosyasından uygun siteyi seçin. Ardından site klasörüne gidip `*.channels.xml` dosyasını açın.
+
+İstediğiniz kanalın listede olmadığından emin olun. Yoksa, aşağıdaki formatta listenin sonuna ekleyin:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
   ...
-  <channel site="SITE" site_id="SITE_ID" lang="LANGUAGE_CODE" xmltv_id="STREAM_ID">CHANNEL_NAME</channel>
+  <channel site="SITE" site_id="SITE_ID" lang="DIL_KODU" xmltv_id="YAYIN_ID">KANAL_ADI</channel>
 </channels>
 ```
 
-| Attribute     | Description                                                                                                                                                                                             | Example       |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| SITE          | Site domain name.                                                                                                                                                                                       | `example.com` |
-| SITE_ID       | Unique ID of the channel used in the source.                                                                                                                                                            | `hbo`         |
-| LANGUAGE_CODE | Language of the guide ([ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code).                                                                                                        | `en`          |
-| STREAM_ID     | ID of the stream (`<CHANNEL_ID>@<FEED_ID>`) for which the guide is intended. Full list of supported channels with corresponding ID could be found on [iptv-org.github.io](https://iptv-org.github.io/). | `HBO.us@East` |
-| CHANNEL_NAME  | Name of the channel used in the source.                                                                                                                                                                 | `HBO East`    |
+| Özellik    | Açıklama                                                                                                                                 | Örnek         |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| SITE       | Sitenin alan adı.                                                                                                                        | `example.com` |
+| SITE_ID    | Kaynaktaki kanal için benzersiz kimlik.                                                                                                  | `hbo`         |
+| DIL_KODU   | Rehberin dili ([ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) kodu).                                                 | `tr`          |
+| YAYIN_ID   | Rehberin ait olduğu yayın kimliği (`<KANAL_ID>@<FEED_ID>`). Tüm listesi [iptv-org.github.io](https://iptv-org.github.io/) adresindedir. | `StarTV.tr`   |
+| KANAL_ADI  | Kaynakta kullanılan kanal adı.                                                                                                           | `Star TV`     |
 
-After that just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+Değişiklikleri [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) edin ve [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) gönderin.
 
-### How to report broken guide?
+---
 
-If you start to get errors when downloading the guide or if nothing loads at all, please let us know via this [form](https://github.com/iptv-org/epg/issues/new?assignees=&labels=broken+guide&projects=&template=3_broken-guide.yml).
+### Bozuk rehber nasıl bildirilir?
 
-### How to add a new source to the repository?
+Rehberi indirirken hata alıyorsanız veya hiçbir şey yüklenmiyorsa, lütfen bu [formu](https://github.com/iptv-org/epg/issues/new?assignees=&labels=broken+guide&projects=&template=3_broken-guide.yml) doldurun.
 
-If you are not familiar with javascript programming, you can ask for help from other community members through this [form](https://github.com/iptv-org/epg/issues/new?assignees=&labels=source+request&projects=&template=1_source-request.yml). Otherwise, below are the instructions for you.
+---
 
-To start with, you need to create a new folder in the [/sites](/sites) folder and put at least 4 files in it:
+### Yeni bir kaynak nasıl eklenir?
+
+JavaScript bilginiz yoksa topluluktan destek isteyebilirsiniz: [talep formu](https://github.com/iptv-org/epg/issues/new?assignees=&labels=source+request&projects=&template=1_source-request.yml).
+
+Aksi takdirde, [/sites](/sites) klasörüne yeni bir klasör oluşturun ve içine en az 4 dosya ekleyin:
 
 <details>
 <summary>example.com.config.js</summary>
 <br>
 
-This file describes what kind of request we need to send to get the guide for a particular channel on a certain date and how to parse the response.
+Bu dosya; belirli bir kanal ve tarih için API'ya nasıl istek atılacağını ve yanıtın nasıl parse edileceğini tanımlar.
 
 ```js
 module.exports = {
@@ -66,196 +72,44 @@ module.exports = {
 }
 ```
 
-### Request Context Object
+### İstek Bağlam Nesnesi (Request Context)
 
-Inside `url()`, `logo()`, `request.data()`, `request.headers()` functions in `*.config.js` you can access a `context` object containing the following data:
+`url()`, `logo()`, `request.data()`, `request.headers()` fonksiyonları içinde `context` nesnesine erişilebilir:
 
-- `channel`: The object describing the current channel (xmltv_id, site_id, name, lang)
-- `date`: The 'dayjs' instance with the requested date
+- `channel`: Mevcut kanalı tanımlayan nesne (`xmltv_id`, `site_id`, `name`, `lang`)
+- `date`: İstenen tarih için `dayjs` örneği
 
-## Parser Context Object
+### Parser Bağlam Nesnesi (Parser Context)
 
-Inside `parser()` function in `*.config.js` you can access a `context` object containing the following data:
+`parser()` fonksiyonu içinde `context` nesnesine erişilebilir:
 
-- `channel`: The object describing the current channel (xmltv_id, site_id, name, lang)
-- `date`: The 'dayjs' instance with the requested date
-- `content`: The response data as a String
-- `buffer`: The response data as an ArrayBuffer
-- `headers`: The response headers
-- `request`: The request config
-- `cached`: A boolean to check whether this request was cached or not
+- `channel`: Mevcut kanalı tanımlayan nesne
+- `date`: İstenen tarih için `dayjs` örneği
+- `content`: Yanıt verisi (String)
+- `buffer`: Yanıt verisi (ArrayBuffer)
+- `headers`: Yanıt başlıkları
+- `request`: İstek yapılandırması
+- `cached`: Bu isteğin önbellekten gelip gelmediği (boolean)
 
-### Program Properties
+### Program Özellikleri
 
-List of properties that can be assigned to each program during parsing.
+Parser sırasında her programa atanabilecek özellikler:
 
-| Property        | Aliases                          | Type                                       | Required |
-| --------------- | -------------------------------- | ------------------------------------------ | -------- |
-| start           |                                  | `String \| Number \| Date()`               | true     |
-| stop            |                                  | `String \| Number \| Date()`               | true     |
-| title           | titles                           | `String \| Object \| String[] \| Object[]` | true     |
-| subTitle        | subTitles, sub_title, sub_titles | `String \| Object \| String[] \| Object[]` | false    |
-| description     | desc, descriptions               | `String \| Object \| String[] \| Object[]` | false    |
-| date            |                                  | `String \| Number \| Date()`               | false    |
-| category        | categories                       | `String \| Object \| String[] \| Object[]` | false    |
-| keyword         | keywords                         | `String \| Object \| String[] \| Object[]` | false    |
-| language        | languages                        | `String \| Object \| String[] \| Object[]` | false    |
-| origLanguage    | origLanguages                    | `String \| Object \| String[] \| Object[]` | false    |
-| length          |                                  | `String \| Object \| String[] \| Object[]` | false    |
-| url             | urls                             | `String \| Object \| String[] \| Object[]` | false    |
-| country         | countries                        | `String \| Object \| String[] \| Object[]` | false    |
-| video           |                                  | `Object`                                   | false    |
-| audio           |                                  | `Object`                                   | false    |
-| season          |                                  | `String \| Number`                         | false    |
-| episode         |                                  | `String \| Number`                         | false    |
-| episodeNumber   | episodeNum, episodeNumbers       | `Object`                                   | false    |
-| previouslyShown |                                  | `String \| Object \| String[] \| Object[]` | false    |
-| premiere        |                                  | `String \| Object \| String[] \| Object[]` | false    |
-| lastChance      |                                  | `String \| Object \| String[] \| Object[]` | false    |
-| new             |                                  | `Boolean`                                  | false    |
-| subtitles       |                                  | `Object \| Object[]`                       | false    |
-| rating          | ratings                          | `String \| Object \| String[] \| Object[]` | false    |
-| starRating      | starRatings                      | `String \| Object \| String[] \| Object[]` | false    |
-| review          | reviews                          | `String \| Object \| String[] \| Object[]` | false    |
-| director        | directors                        | `String \| Object \| String[] \| Object[]` | false    |
-| actor           | actors                           | `String \| Object \| String[] \| Object[]` | false    |
-| writer          | writers                          | `String \| Object \| String[] \| Object[]` | false    |
-| adapter         | adapters                         | `String \| Object \| String[] \| Object[]` | false    |
-| producer        | producers                        | `String \| Object \| String[] \| Object[]` | false    |
-| presenter       | presenters                       | `String \| Object \| String[] \| Object[]` | false    |
-| composer        | composers                        | `String \| Object \| String[] \| Object[]` | false    |
-| editor          | editors                          | `String \| Object \| String[] \| Object[]` | false    |
-| commentator     | commentators                     | `String \| Object \| String[] \| Object[]` | false    |
-| guest           | guests                           | `String \| Object \| String[] \| Object[]` | false    |
-| image           | images                           | `String \| Object \| String[] \| Object[]` | false    |
-| icon            | icons                            | `String \| Object \| String[] \| Object[]` | false    |
-
-Example:
-
-```js
-{
-  start: '2021-03-19T06:00:00.000Z',
-  stop: '2021-03-19T06:30:00.000Z',
-  title: 'Program 1',
-  subTitle: 'Sub-title & 1',
-  description: 'Description for Program 1',
-  date: '2022-05-06',
-  categories: ['Comedy', 'Drama'],
-  keywords: [
-    { lang: 'en', value: 'physical-comedy' },
-    { lang: 'en', value: 'romantic' }
-  ],
-  language: 'English',
-  origLanguage: { lang: 'en', value: 'French' },
-  length: { units: 'minutes', value: '60' },
-  url: 'http://example.com/title.html',
-  country: 'US',
-  video: {
-    present: 'yes',
-    colour: 'no',
-    aspect: '16:9',
-    quality: 'HDTV'
-  },
-  audio: {
-    present: 'yes',
-    stereo: 'Dolby Digital'
-  },
-  season: 9,
-  episode: 239,
-  previouslyShown: [{ start: '20080711000000', channel: 'channel-two.tv' }],
-  premiere: 'First time on British TV',
-  lastChance: [{ lang: 'en', value: 'Last time on this channel' }],
-  new: true,
-  subtitles: [
-    { type: 'teletext', language: 'English' },
-    { type: 'onscreen', language: [{ lang: 'en', value: 'Spanish' }] }
-  ],
-  rating: {
-    system: 'MPAA',
-    value: 'P&G',
-    icon: 'http://example.com/pg_symbol.png'
-  },
-  starRatings: [
-    {
-      system: 'TV Guide',
-      value: '4/5',
-      icon: [{ src: 'stars.png', width: 100, height: 100 }]
-    },
-    {
-      system: 'IMDB',
-      value: '8/10'
-    }
-  ],
-  reviews: [
-    {
-      type: 'text',
-      source: 'Rotten Tomatoes',
-      reviewer: 'Joe Bloggs',
-      lang: 'en',
-      value: 'This is a fantastic show!'
-    },
-    {
-      type: 'text',
-      source: 'IDMB',
-      reviewer: 'Jane Doe',
-      lang: 'en',
-      value: 'I love this show!'
-    },
-    {
-      type: 'url',
-      source: 'Rotten Tomatoes',
-      reviewer: 'Joe Bloggs',
-      lang: 'en',
-      value: 'https://example.com/programme_one_review'
-    }
-  ],
-  directors: [
-    {
-      value: 'Director 1',
-      url: { value: 'http://example.com/director1.html', system: 'TestSystem' },
-      image: [
-        'https://example.com/image1.jpg',
-        {
-          value: 'https://example.com/image2.jpg',
-          type: 'person',
-          size: '2',
-          system: 'TestSystem',
-          orient: 'P'
-        }
-      ]
-    },
-    'Director 2'
-  ],
-  actors: ['Actor 1', 'Actor 2'],
-  writer: 'Writer 1',
-  producers: 'Roger Dobkowitz',
-  presenters: 'Drew Carey',
-  images: [
-    {
-      type: 'poster',
-      size: '1',
-      orient: 'P',
-      system: 'tvdb',
-      value: 'https://tvdb.com/programme_one_poster_1.jpg'
-    },
-    {
-      type: 'poster',
-      size: '2',
-      orient: 'P',
-      system: 'tmdb',
-      value: 'https://tmdb.com/programme_one_poster_2.jpg'
-    },
-    {
-      type: 'backdrop',
-      size: '3',
-      orient: 'L',
-      system: 'tvdb',
-      value: 'https://tvdb.com/programme_one_backdrop_3.jpg'
-    }
-  ],
-  icon: 'https://example.com/images/Program1.png?x=шеллы&sid=777'
-}
-```
+| Özellik         | Takma Adlar                      | Tür                                        | Zorunlu |
+| --------------- | -------------------------------- | ------------------------------------------ | ------- |
+| start           |                                  | `String \| Number \| Date()`               | evet    |
+| stop            |                                  | `String \| Number \| Date()`               | evet    |
+| title           | titles                           | `String \| Object \| String[] \| Object[]` | evet    |
+| subTitle        | subTitles, sub_title, sub_titles | `String \| Object \| String[] \| Object[]` | hayır   |
+| description     | desc, descriptions               | `String \| Object \| String[] \| Object[]` | hayır   |
+| date            |                                  | `String \| Number \| Date()`               | hayır   |
+| category        | categories                       | `String \| Object \| String[] \| Object[]` | hayır   |
+| season          |                                  | `String \| Number`                         | hayır   |
+| episode         |                                  | `String \| Number`                         | hayır   |
+| image           | images                           | `String \| Object \| String[] \| Object[]` | hayır   |
+| rating          | ratings                          | `String \| Object \| String[] \| Object[]` | hayır   |
+| director        | directors                        | `String \| Object \| String[] \| Object[]` | hayır   |
+| actor           | actors                           | `String \| Object \| String[] \| Object[]` | hayır   |
 
 </details>
 
@@ -263,7 +117,7 @@ Example:
 <summary>example.com.test.js</summary>
 <br>
 
-With this file we can test the previously created config and make sure it works as you expect.
+Bu dosya ile oluşturulan config'i test edebilir ve beklediğiniz gibi çalıştığını doğrulayabilirsiniz.
 
 ```js
 const { parser, url } = require('./example.com.config.js')
@@ -276,41 +130,31 @@ dayjs.extend(utc)
 const date = dayjs.utc('2025-01-12', 'YYYY-MM-DD').startOf('d')
 const channel = { site_id: 'bbc1', xmltv_id: 'BBCOne.uk' }
 
-it('can generate valid url', () => {
+it('geçerli url oluşturabilir', () => {
   expect(url({ channel, date })).toBe('https://example.com/api/bbc1/2025-01-12')
 })
 
-it('can parse response', () => {
+it('yanıtı parse edebilir', () => {
   const content =
-    '[{"title":"Program 1","start":"2025-01-12T00:00:00.000Z","stop":"2025-01-12T00:30:00.000Z"},{"title":"Program 2","start":"2025-01-12T00:30:00.000Z","stop":"2025-01-12T01:00:00.000Z"}]'
+    '[{"title":"Program 1","start":"2025-01-12T00:00:00.000Z","stop":"2025-01-12T00:30:00.000Z"}]'
 
   const results = parser({ content })
 
-  expect(results.length).toBe(2)
+  expect(results.length).toBe(1)
   expect(results[0]).toMatchObject({
     title: 'Program 1',
     start: '2025-01-12T00:00:00.000Z',
     stop: '2025-01-12T00:30:00.000Z'
   })
-  expect(results[1]).toMatchObject({
-    title: 'Program 2',
-    start: '2025-01-12T00:30:00.000Z',
-    stop: '2025-01-12T01:00:00.000Z'
-  })
 })
 
-it('can handle empty guide', () => {
-  const result = parser({
-    date,
-    channel,
-    content: ''
-  })
-
+it('boş rehberi işleyebilir', () => {
+  const result = parser({ date, channel, content: '' })
   expect(result).toMatchObject([])
 })
 ```
 
-Detailed documentation for the tests can be found here: https://jestjs.io/docs/using-matchers
+Test dokümantasyonu: https://jestjs.io/docs/using-matchers
 
 </details>
 
@@ -318,12 +162,12 @@ Detailed documentation for the tests can be found here: https://jestjs.io/docs/u
 <summary>example.com.channels.xml</summary>
 <br>
 
-This file contains a list of channels available at the source.
+Bu dosya kaynakta bulunan kanal listesini içerir.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <channels>
-  <channel site="example.com" lang="en" xmltv_id="BBCOne.uk" site_id="bbc1">BBC One</channel>
+  <channel site="example.com" lang="tr" xmltv_id="StarTV.tr" site_id="star-tv">Star TV</channel>
 </channels>
 ```
 
@@ -333,14 +177,14 @@ This file contains a list of channels available at the source.
 <summary>readme.md</summary>
 <br>
 
-This file contains instructions on how to use this config.
+Bu dosya config'in nasıl kullanılacağına dair talimatları içerir.
 
 ````
 # example.com
 
 https://example.com
 
-### Download the guide
+### EPG İndir
 
 ```sh
 npm run grab --- --site=example.com
@@ -355,61 +199,59 @@ npm test --- example.com
 
 </details>
 
-The fastest way to create all these files is to use the command:
+Tüm dosyaları hızlıca oluşturmak için şu komutu kullanabilirsiniz:
 
 ```sh
 npm run sites:init --- example.com
 ```
 
-After you finish working on the files you can make sure that everything works by running the config test:
+Dosyaları tamamladıktan sonra config testini çalıştırın:
 
-```
+```sh
 npm test --- example.com
 ```
 
-Then check that all channels have the correct `xmltv-id`:
+Ardından tüm kanalların doğru `xmltv_id`'ye sahip olduğunu kontrol edin:
 
-```
+```sh
 npm run channels:validate sites/example.com/example.com.channels.xml
 ```
 
-And then try downloading the guide itself:
+Son olarak rehberi indirmeyi deneyin:
 
-```
+```sh
 npm run grab --- example.com
 ```
 
-If everything goes well just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+Her şey yolunda giderse değişiklikleri [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) edin.
 
-### How to map the channels?
+---
 
-In order for the guides to be linked with playlists from [iptv-org/iptv](https://github.com/iptv-org/iptv) and also with our other projects, each channel must have the same ID in the description as in our [iptv-org/database](https://github.com/iptv-org/database).
+### Kanallar nasıl eşleştirilir?
 
-To check this, select one of the sites in the [SITES.md](SITES.md), open its `*.channels.xml` file and check that all channels have a valid `xmltv_id`. A list of all channels with corresponding IDs can be found at [iptv-org.github.io](https://iptv-org.github.io/).
+Her kanalın `*.channels.xml` dosyasındaki `xmltv_id` değerinin [iptv-org/database](https://github.com/iptv-org/database) ile uyumlu olması gerekir.
 
-If the channel is not in our database yet, you can add it to it through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=1_channels_add.yml&title=Add%3A+).
-
-If the `*.channels.xml` file contains many channels without `xmltv_id`, you can speed up the process by running the command in the [Console](https://en.wikipedia.org/wiki/Windows_Console) (or [Terminal](<https://en.wikipedia.org/wiki/Terminal_(macOS)>) if you have macOS):
+Kontrolü hızlandırmak için:
 
 ```sh
 npm run channels:edit path/to/channels.xml
 ```
 
-This way, you can map channels by simply selecting the proper ID from the list:
+Bu komut listeden doğru ID'yi seçmenizi sağlar:
 
 ```sh
-? Select channel ID for "BBC One" (bbc1): (Use arrow keys)
-❯ BBCOne.uk (BBC One, BBC1, BBC Television, BBC Television Service)
-  BBCOneHD.uk (BBC One HD)
-  Type...
-  Skip
+? "Star TV" için kanal ID seçin (star-tv): (Ok tuşlarını kullanın)
+❯ StarTV.tr (Star TV)
+  StarTV2.tr (Star TV 2)
+  Yaz...
+  Atla
 ```
 
-Once complete, [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+---
 
-### How to add my server to the GUIDES.md?
+### Sunucumu GUIDES.md'ye nasıl eklerim?
 
-To do this, you just need to place the `worker.json` file in a public directory on your server.
+Sunucunuzun genel dizinine `worker.json` dosyası yerleştirin:
 
 <details>
 <summary>worker.json</summary>
@@ -424,46 +266,47 @@ To do this, you just need to place the `worker.json` file in a public directory 
 
 </details>
 
-And then add server domain or IP address to the [workers.txt](workers.txt) file.
+Ardından sunucu alan adınızı veya IP adresinizi `workers.txt` dosyasına ekleyin.
 
-Once your request is approved, it will automatically be added to the [GUIDES.md](GUIDES.md).
+İsteğiniz onaylandıktan sonra otomatik olarak [GUIDES.md](GUIDES.md) dosyasına eklenir.
 
-## Project Structure
+---
+
+## Proje Yapısı
 
 - `.github/`
-  - `ISSUE_TEMPLATE/`: issue templates for the repository.
-  - `workflows`: contains [GitHub actions](https://docs.github.com/en/actions/quickstart) workflows.
-  - `CODE_OF_CONDUCT.md`: rules you shouldn't break if you don't want to get banned.
-- `scripts/`: contains all scripts used in the repository.
-- `sites/`: contains configurations, channel lists and tests for all sites.
-- `tests/`: contains tests to check the scripts.
-- `CONTRIBUTING.md`: file you are currently reading.
-- `GUIDES.md`: list of all available guides and their current status.
-- `README.md`: project description displayed on the home page.
-- `SITES.md`: list of all supported sites and their current status.
-- `workers.txt`: list of all available community workers.
+  - `ISSUE_TEMPLATE/`: Sorun (issue) şablonları.
+  - `workflows/`: GitHub Actions iş akışları.
+  - `CODE_OF_CONDUCT.md`: Davranış kuralları.
+- `scripts/`: Projede kullanılan tüm komut dosyaları.
+- `sites/`: Tüm sitelerin yapılandırmaları, kanal listeleri ve testleri.
+- `tests/`: Komut dosyalarını kontrol eden testler.
+- `CONTRIBUTING.md`: Katkı kılavuzu (bu dosya).
+- `GUIDES.md`: Mevcut rehberlerin listesi ve durumu.
+- `README.md`: Proje açıklaması.
+- `SITES.md`: Desteklenen sitelerin listesi ve durumu.
 
-## Scripts
+---
 
-These scripts are created to automate routine processes in the repository and make it a bit easier to maintain.
+## Komut Dosyaları
 
-For scripts to work, you must have [Node.js](https://nodejs.org/en) installed on your computer.
+Bu komutlar rutin süreçleri otomatikleştirmek için oluşturulmuştur. Kullanmak için [Node.js](https://nodejs.org/en) kurulu olmalıdır.
 
-To run scripts use the `npm run <script-name>` command.
+```sh
+npm run <komut-adı>
+```
 
-- `act:check`: allows to test the [check](https://github.com/iptv-org/iptv/blob/master/.github/workflows/check.yml) workflow locally. Depends on [nektos/act](https://github.com/nektos/act).
-- `act:update`: allows to test the [update](https://github.com/iptv-org/iptv/blob/master/.github/workflows/update.yml) workflow locally. Depends on [nektos/act](https://github.com/nektos/act).
-- `api:load`: downloads the latest channels data from the [iptv-org/api](https://github.com/iptv-org/api).
-- `api:generate`: generates a JSON file with all channels for the [iptv-org/api](https://github.com/iptv-org/api) repository.
-- `channels:lint`: сhecks the channel lists for syntax errors.
-- `channels:parse`: generates a list of channels based on the site configuration.
-- `channels:format`: formats `*.channels.xml` files. The process involves removing invalid `xmltv_id`, adding missing Feed ID, and sorting the list.
-- `channels:edit`: utility for quick channels mapping.
-- `channels:validate`: checks the description of channels for errors.
-- `sites:init`: creates a new site config from the template.
-- `sites:update`: updates the list of sites and their status in [SITES.md](SITES.md).
-- `guides:update`: updates the list of guides and their status in [GUIDES.md](GUIDES.md).
-- `grab`: downloads a program from a specified source.
-- `serve`: starts the [web server](https://github.com/vercel/serve).
-- `lint`: сhecks the scripts for syntax errors.
-- `test`: runs a test of all the scripts described above.
+| Komut | Açıklama |
+|-------|----------|
+| `channels:lint` | Kanal listelerini sözdizimi hatalarına karşı kontrol eder |
+| `channels:parse` | Site yapılandırmasına göre kanal listesi oluşturur |
+| `channels:format` | `*.channels.xml` dosyalarını biçimlendirir |
+| `channels:edit` | Kanalları hızlıca eşleştirmek için yardımcı araç |
+| `channels:validate` | Kanal açıklamalarındaki hataları denetler |
+| `sites:init` | Şablondan yeni site yapılandırması oluşturur |
+| `sites:update` | [SITES.md](SITES.md) dosyasını günceller |
+| `guides:update` | [GUIDES.md](GUIDES.md) dosyasını günceller |
+| `grab` | Belirtilen kaynaktan EPG verisini indirir |
+| `serve` | Web sunucusunu başlatır |
+| `lint` | Komut dosyalarını sözdizimi hatalarına karşı kontrol eder |
+| `test` | Tüm testleri çalıştırır |

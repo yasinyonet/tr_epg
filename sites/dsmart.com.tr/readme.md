@@ -1,17 +1,27 @@
 # dsmart.com.tr
 
-https://www.dsmart.com.tr/yayin-akisi
+**Kaynak:** https://www.dsmart.com.tr/yayin-akisi  
+**Tür:** HTML tabanlı yayın akışı  
+**Kanal sayısı:** ~103  
+**Günlük sayı:** 3
 
-### Download the guide
+---
+
+## Komutlar
+
+### EPG İndir
 
 ```sh
 npm run grab --- --site=dsmart.com.tr
 ```
-### Download the guide
+
+### EPG İndir (klasöre kaydet)
+
 ```sh
-npm run grab --- --site=dsmart.com.tr --output=./sites/dsmart.com.tr/guides.xml 
+npm run grab --- --site=dsmart.com.tr --output=./sites/dsmart.com.tr/guides.xml
 ```
-### Update channel list
+
+### Kanal Listesini Güncelle
 
 ```sh
 npm run channels:parse --- --config=./sites/dsmart.com.tr/dsmart.com.tr.config.js --output=./sites/dsmart.com.tr/dsmart.com.tr.channels.xml
@@ -22,3 +32,14 @@ npm run channels:parse --- --config=./sites/dsmart.com.tr/dsmart.com.tr.config.j
 ```sh
 npm test --- dsmart.com.tr
 ```
+
+---
+
+## Dosyalar
+
+| Dosya | Açıklama |
+|-------|----------|
+| `dsmart.com.tr.config.js` | Parser ve URL yapılandırması |
+| `dsmart.com.tr.channels.xml` | Kanal listesi |
+| `dsmart.com.tr.test.js` | Birim testleri |
+| `__data__/content.json` | Test fixture verisi |

@@ -1,148 +1,52 @@
-# Sites
+# Siteler
 
-<table>
-  <thead>
-    <tr><th align="left">Site</th><th align="left" colspan="2">Channels<br>(total / with xmltv-id)</th><th align="left">Status</th><th align="left">Notes</th></tr>
-  </thead>
-  <tbody>
-    <tr><td><a href="sites/ahaber.com.tr">ahaber.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/akittv.com.tr">akittv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/akkontv.com">akkontv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/aksutv.com.tr">aksutv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/alanyapostatv.com">alanyapostatv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/almanyatv.net">almanyatv.net</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/altastv.com.tr">altastv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/anadolumtv.com.tr">anadolumtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/apara.com.tr">apara.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/asftv.com.tr">asftv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/aspor.com.tr">aspor.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/atv.com.tr">atv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/atvavrupa.tv">atvavrupa.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/begentv.com">begentv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/beyaztv.com.tr">beyaztv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/birtv.tv">birtv.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/bloomberght.com">bloomberght.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/brtv.com.tr">brtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/cankiritv.com.tr">cankiritv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/cansuyutv.com.tr">cansuyutv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/cartoonnetwork.com.tr">cartoonnetwork.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ciftcitv.com">ciftcitv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/cnbce.com">cnbce.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/diyanet.tv">diyanet.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/dmax.com.tr">dmax.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/dosttv.com">dosttv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/dreamturk.com.tr">dreamturk.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/duzcetv.com">duzcetv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/edirnetv.com">edirnetv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ekoltv.com.tr">ekoltv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ekonomiknokta.tv">ekonomiknokta.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ekoturk.com">ekoturk.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/erbaaradyotv.com.tr">erbaaradyotv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ertv.com.tr">ertv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/foramuzik.com">foramuzik.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/gemlikinsesitv.com">gemlikinsesitv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/gozde.tv">gozde.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/grt.com.tr">grt.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/gurbet24.com">gurbet24.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/habercaddesitv.com">habercaddesitv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/halktv.com.tr">halktv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ikratv.com">ikratv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ilktv.com">ilktv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/intisadtv.com">intisadtv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/isvicretv.com">isvicretv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/izmirtime35.com">izmirtime35.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal12.net">kanal12.net</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal15.com.tr">kanal15.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal23.com">kanal23.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal26.tv">kanal26.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal3.com.tr">kanal3.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal38.com.tr">kanal38.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal53.fm.tc">kanal53.fm.tc</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal6tv.com">kanal6tv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal7.com">kanal7.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanal7avrupa.com">kanal7avrupa.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanalada.com">kanalada.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanalavrupa.tv">kanalavrupa.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanald.com.tr">kanald.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanalfirat.com.tr">kanalfirat.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanalg.tv">kanalg.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanalhayat.com">kanalhayat.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kanalz.com.tr">kanalz.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kdctv.com.tr">kdctv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kent64.com.tr">kent64.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kentturktv.com">kentturktv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/kontv.tr">kontv.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/lalegultv.com.tr">lalegultv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/liderhaber.com.tr">liderhaber.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/lugattv.com">lugattv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/malatyavuslattv.com">malatyavuslattv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/megatviskenderun.com">megatviskenderun.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/meltemtv.com.tr">meltemtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/metropoltv.com.tr">metropoltv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/metroturk.tv">metroturk.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/minikacocuk.com.tr">minikacocuk.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/minikago.com.tr">minikago.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/mturktv.com">mturktv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/neftv.com.tr">neftv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/neohaber.com">neohaber.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/nowtv.com.tr">nowtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ntv.com.tr">ntv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/rizeturktv.fm.tc">rizeturktv.fm.tc</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/rumeliturk.tv">rumeliturk.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/semerkandtv.com.tr">semerkandtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/showmax.com.tr">showmax.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/showturk.com.tr">showturk.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/showtv.com.tr">showtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/slowkaradeniztv.fm.tc">slowkaradeniztv.fm.tc</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/sonmeztv.com">sonmeztv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/startv.com.tr">startv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/suduragitv.com">suduragitv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/szctv.com.tr">szctv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/taytv.com">taytv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tele1.com.tr">tele1.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tempo-tv.com">tempo-tv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/teve2.com.tr">teve2.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tgrtbelgesel.com.tr">tgrtbelgesel.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tgrteu.com">tgrteu.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tgrthaber.com">tgrthaber.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tivi16.com">tivi16.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tjk.org">tjk.org</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tlctv.com.tr">tlctv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tmb.tv">tmb.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trt.net.tr">trt.net.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trt1.com.tr">trt1.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trt2.com.tr">trt2.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtavaz.com.tr">trtavaz.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtbelgesel.com.tr">trtbelgesel.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtcocuk.net.tr">trtcocuk.net.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtdiyanetcocuk.net.tr">trtdiyanetcocuk.net.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trthaber.com">trthaber.com</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtkurdi.com.tr">trtkurdi.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtmuzik.net.tr">trtmuzik.net.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtspor.com.tr">trtspor.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/trtturk.com.tr">trtturk.com.tr</a></td><td align="right">1</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/turkhabertv.com">turkhabertv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/turkiyeklinikleri.tv">turkiyeklinikleri.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/turkmenelitv.com">turkmenelitv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/turkuvapp.com">turkuvapp.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv100.com">tv100.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv264.com.tr">tv264.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv360.com.tr">tv360.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv4.com.tr">tv4.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv41.com.tr">tv41.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv5.com.tr">tv5.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv52.com.tr">tv52.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv8.com.tr">tv8.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv8bucuk.com">tv8bucuk.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tvnet.com.tr">tvnet.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tytturk.com">tytturk.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ulketv.com">ulketv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/ulusal.com.tr">ulusal.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/vavtv.com.tr">vavtv.com.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/viyanatv.com">viyanatv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/vrt.net.tr">vrt.net.tr</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/yabantv.com">yabantv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/yagmurlutv.com">yagmurlutv.com</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/yirmidort.tv">yirmidort.tv</a></td><td align="right">0</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
-  </tbody>
-</table>
+Bu projede aktif olan EPG kaynak siteleri:
+
+| Site | URL | Kanal Sayısı | Durum |
+|------|-----|:------------:|:-----:|
+| [dsmart.com.tr](dsmart.com.tr) | https://www.dsmart.com.tr/yayin-akisi | 103 | 🟢 |
+| [tivibu.com.tr](tivibu.com.tr) | https://www.tivibu.com.tr/canli-tv | 140 | 🟢 |
+| [turksatkablo.com.tr](turksatkablo.com.tr) | https://www.turksatkablo.com.tr/yayin-akisi.aspx | 133 | 🟢 |
+| [tvplus.com.tr](tvplus.com.tr) | https://tvplus.com.tr/canli-tv/yayin-akisi | 300+ | 🟢 |
+
+---
+
+## Hızlı Başlangıç
+
+```sh
+# Kurulum
+npm install
+
+# Tüm sitelerde EPG indir
+guides_create.cmd
+
+# Tek site EPG indir
+npm run grab --- --site=tvplus.com.tr
+
+# Kanal listelerini güncelle
+channel_create.cmd
+```
+
+---
+
+## Site Detayları
+
+### dsmart.com.tr
+- **Kaynak:** HTML tabanlı yayın akışı sayfası
+- **Güncelleme:** Manuel (`channel_create.cmd`)
+- **Config:** [dsmart.com.tr.config.js](dsmart.com.tr/dsmart.com.tr.config.js)
+
+### tivibu.com.tr
+- **Kaynak:** POST API (`Channel/GetPrevueList`) + CSRF token doğrulaması
+- **Güncelleme:** Manuel (`channel_create.cmd`)
+- **Config:** [tivibu.com.tr.config.js](tivibu.com.tr/tivibu.com.tr.config.js)
+
+### turksatkablo.com.tr
+- **Kaynak:** JSON tabanlı günlük EPG dosyası
+- **Güncelleme:** Manuel (`channel_create.cmd`)
+- **Config:** [turksatkablo.com.tr.config.js](turksatkablo.com.tr/turksatkablo.com.tr.config.js)
+
+### tvplus.com.tr
+- **Kaynak:** Next.js SSR + EPG PlayBillList API (çok günlü destek)
+- **Güncelleme:** Manuel (`channel_create.cmd`)
+- **Config:** [tvplus.com.tr.config.js](tvplus.com.tr/tvplus.com.tr.config.js)
